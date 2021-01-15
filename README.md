@@ -15,6 +15,17 @@ Configuration Emacs **Special 42** avec commentaires
 
 # Installation
 
+### Si Emacs n'est pas installe
+
+```
+brew install emacs
+```
+
+### Si HomeBrew n'est pas installe
+```
+rm -rf $HOME/.brew && git clone --depth=1 https://github.com/Homebrew/brew $HOME/.brew && export PATH=$HOME/ .brew/bin:$PATH && brew update && echo "export PATH=$HOME/.brew/bin:$PATH" >> ~/.zshrc
+```
+
 #### Proteger les anciennes configs
 
 ```
