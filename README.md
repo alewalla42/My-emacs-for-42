@@ -1,5 +1,7 @@
 .emacs.d
 ========
+.emacs d'origine https://github.com/Peltoche/.emacs.d
+
 # Warning
 
 This repos is no longer maintained. 
@@ -9,25 +11,6 @@ This repos is no longer maintained.
 Configuration Emacs **Special 42** avec commentaires
 
 **WARNING** *Some of these configurations and/or commands may be specific to a certain setup (42 school), some commands might useless to others or could lead to troubleshooting*
-
-# Content
-
-* Header 42 Automatique a la creation de fichier (commande shell specifique)
-* Makefile automatique a la creation de fichier
-* Numpad active
-* Autocompletion
-* Autocompletion des prototypes
-* Indentation automatique
-* Indentation de zone
-* Affichage des lignes
-* Afficher/Masquer les lignes avec "C-x l"
-* Surlignage ligne courante
-* Surligne parentheses
-* Fermeture automatique des parentheses
-* Surligne les espaces en fin de ligne
-* Supprime les espaces en fin de ligne a la sauvegarde
-* Reduction de la fonction sur elle meme avec F5
-* Comment une zone avec "C-c C-c"
 
 
 # Installation
@@ -43,7 +26,7 @@ cd ~ ; mv .emacs .emacs.old ; mv .emacs.d/ .emacs.d.old/;
 #### Telecharger le github dans le home:
 
 ```
-cd ~ ; git clone https://github.com/Peltoche/.emacs.d.git ;
+cd ~ ; git clone https://github.com/alewalla42/My-emacs-for-42.git .emacs.d;
 
 ```
 *Pensez a cloner de temps en temps si vous voulez profiter des nouvelles trouvailles*
