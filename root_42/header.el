@@ -22,7 +22,7 @@
 ;    By: login____ <mail_______@student.42.fr>      +#+  +:+       +#+         ;
 ;                                                 +#+#+#+#+#+   +#+            ;
 ;    Created: yyyy/mm/dd 15:27:11 by login____         #+#    #+#              ;
-;    Updated: yyyy/mm/dd 15:27:11 by login____        ###   ########.fr        ;
+;    Updated: 2021/01/19 14:43:05 by alewalla         ###   ########.fr        ;
 ;                                                                              ;
 ;******************************************************************************;
 
@@ -42,7 +42,7 @@
 
 (set 'user-mail (let ((mail (getenv "MAIL")))
 				   (if (string= mail nil)
-					   "marvin@42.fr"
+					   "alewalla@student.42.fr"
 					 mail)
 				   )
 	 )
